@@ -44,7 +44,7 @@ public class StackImplementation
         }
         else
         {
-            for (int i=top;i>=0;i++)
+            for (int i=top;i>=0;i--)
             {
                 System.out.println(arr[i]);
             }
